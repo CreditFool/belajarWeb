@@ -2,13 +2,17 @@
 <html>
   <head>
     <title>Home</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
-      <h1>Bandung</h1>
-      <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota
-        provinsi tersebut.
-      </p>
+      <div class="jumbotron">
+        <h1>Bandung</h1>
+        <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota
+          provinsi tersebut.
+        </p>
+      </div>
       <nav>
         <ul>
           <li><a href="#sejarah">Sejarah</a></li>
@@ -19,9 +23,9 @@
     </header>
     <main>
       <div id="content">
-        <article id="sejarah">
+        <article id="sejarah" class="card">
           <h2>Sejarah</h2>
-          <img src="assets/image/history.jpg" alt="Sejarah" title="Sejarah Bandung">
+          <img src="assets/image/history.jpg" alt="Sejarah" title="Sejarah Bandung" class="feature-image">
           <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya
             sungai Citarum oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga.
             Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan bahwa nama
@@ -38,9 +42,9 @@
             atau Bumi, disebut juga sebagai Ibu Pertiwi tempat Banda berada.
           </p>
         </article>
-        <article id="geografis">
+        <article id="geografis" class="card">
           <h2>Geografis</h2>
-          <img src="assets/image/geografis.jpg" alt="geografis" title="geografis">
+          <img src="assets/image/geografis.jpg" alt="geografis" title="geografis" class="feature-image">
           <p>Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya
             bagaikan sebuah mangkok raksasa, secara geografis kota ini terletak di
             tengah-tengah provinsi Jawa Barat, serta berada pada ketinggian ±768 m di atas
@@ -54,7 +58,7 @@
             sangat rentan terhadap masalah banjir terutama pada musim hujan.
           </p>
         </article>
-        <article id="wisata">
+        <article id="wisata" class="card">
           <h2>Wisata</h2>
           <p>Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama
             dalam menikmati liburan akhir pekan terutama dari masyarakat yang berasal dari
@@ -63,7 +67,7 @@
           </p>
           <section>
             <h3>Farm House Lembang</h3>
-            <img src="assets/image/farm-house.jpg" alt="farm house" title="farm house">
+            <img src="assets/image/farm-house.jpg" alt="farm house" title="farm house" class="feature-image">
             <section>
               <h4>Lokasi</h4>
               <p>Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak
@@ -80,7 +84,7 @@
           </section>
           <section>
             <h3>Observatorium Bosscha</h3>
-            <img src="assets/image/bosscha.jpg" alt="Bosscha" title="Bosscha">
+            <img src="assets/image/bosscha.jpg" alt="Bosscha" title="Bosscha" class="feature-image">
             <p>Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt
               Bimasakti, Refraktor Bamberg, Cassegrain GOTO, dan Teleskop Surya.
               Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong
@@ -95,14 +99,16 @@
         </article>
       </div>
 
-      <aside>
-        <article>
-          <h2>Kota Bandung</h2>
-          <p>Kota Kembang Paris van Java</p>
-          <figure>
-            <img src="assets/image/logo-bandung.png" alt="logo bandung" title="logo kota Bandung">
-            <figcaption>Lambang</figcaption>
-          </figure>
+      <aside class="profile">
+        <article class="card">
+          <header>
+            <h2>Kota Bandung</h2>
+            <p>Kota Kembang Paris van Java</p>
+            <figure>
+              <img src="assets/image/logo-bandung.png" alt="logo bandung" title="logo kota Bandung">
+              <figcaption>Lambang</figcaption>
+            </figure>
+          </header>
           <section>
             <h3>Informasi Lainnya</h3>
             <table>
